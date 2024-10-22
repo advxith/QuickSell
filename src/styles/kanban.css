@@ -1,0 +1,81 @@
+.kanban-board {  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+    margin: 20px;  
+    background-color: #f8f9fa;  
+    padding: 20px;  
+    border: 1px solid #ddd;  
+    border-radius: 10px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+  }  
+    
+  .columns {  
+    display: flex;  
+    flex-wrap: wrap;  
+    justify-content: center;  
+    margin-top: 20px;  
+  }  
+    
+  .column {  
+    flex-basis: 25%;  
+    margin: 10px;  
+    padding: 20px;  
+    border: 1px solid #ddd;  
+    border-radius: 10px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+    background-color: #fff;  
+  }  
+    
+  .column h2 {  
+    margin-top: 0;  
+    font-weight: bold;  
+    font-size: 18px;  
+    color: #333;  
+  }  
+    
+  .column ul {  
+    list-style: none;  
+    padding: 0;  
+    margin: 0;  
+  }  
+    
+  .column li {  
+    margin-bottom: 10px;  
+    padding: 10px;  
+    border-bottom: 1px solid #ddd;  
+  }  
+    
+  .column li:last-child {  
+    border-bottom: none;  
+  }  
+    
+  .ticket-card {  
+    border: 1px solid #ccc;  
+    border-radius: 5px;  
+    padding: 15px;  
+    margin: 10px;  
+    width: 200px;  
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);  
+    background-color: #fff;  
+  }  
+    
+  .priority-4 {  
+    background-color: #ffcccc; /* Urgent */  
+  }  
+    
+  .priority-3 {  
+    background-color: #ffe6cc; /* High */  
+  }  
+    
+  .priority-2 {  
+    background-color: #ffffcc; /* Medium */  
+  }  
+    
+  .priority-1 {  
+    background-color: #ccffcc; /* Low */  
+  }  
+    
+  .priority-0 {  
+    background-color: #f0f0f0; /* No priority */  
+  }
